@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta name="theme-color" content="#1e1e2e">
+<title>高考认知引擎</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app-header">
+  <h1>🧠 高考认知引擎</h1>
+  <div class="subtitle">化学 · 基于学习科学的认知训练系统</div>
+</div>
+
+<div class="tab-bar">
+  <div class="tab-item active" data-tab="dashboard">📊 仪表盘</div>
+  <div class="tab-item" data-tab="review">📖 复习</div>
+  <div class="tab-item" data-tab="library">📚 知识库</div>
+</div>
+
+<div class="container">
+  <div class="tab-content" id="tab-dashboard"></div>
+  <div class="tab-content" id="tab-review" style="display:none"></div>
+  <div class="tab-content" id="tab-library" style="display:none"></div>
+</div>
+
+<div class="toast" id="toast"></div>
+<div class="modal-overlay" id="modal" style="display:none">
+  <div class="modal-content" id="modalBody"></div>
+</div>
+
+<script src="data/module1.js"></script>
+<script src="data/module2.js"></script>
+<script src="data/module3.js"></script>
+<script src="data/module4.js"></script>
+<script src="data/module5.js"></script>
+<script src="data/module6.js"></script>
+<script src="data/index.js"></script>
+<script src="scheduler.js"></script>
+<script src="store.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
